@@ -8,6 +8,7 @@ import nltk.data
 import string
 from rouge import Rouge
 import sys
+import math
 
 
 '''
@@ -167,7 +168,7 @@ def findSimilarity(sentence1, sentence2):
     wk = (set(list1).intersection(set(list2)))
     si = len(list1)
     sj = len(list2)
-    similarity = (float(len(wk))/float(si*sj))
+    similarity = (float(len(wk))/float(math.log(si)+math.log(sj)))
     return similarity;
 
 '''
