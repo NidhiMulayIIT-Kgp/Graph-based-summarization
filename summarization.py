@@ -1,7 +1,3 @@
-''' ASSIGNMENT 3 : CONTENT SUMMARIZATION
-    Submitted by: Archie Mittal(17CS60R82)
-                  Nidhi Mulay(17CS60R75)'''
-
 import matplotlib.pyplot as plt
 import networkx as nx
 from nltk.stem import PorterStemmer
